@@ -94,7 +94,7 @@ vim /etc/crontab
 mount /dev/sdc2 /mnt/          👉 # 리눅스 클라이언트 파일시스템 부분임 (fdisk -l 명령어로 확인) #
 ```
 ```vim
-cp -ar /mnt/* /pxe/client/pc1/
+cp -ar /mnt/* /pxe/client/pc1/      👉 이거 한 10분 걸림
 umount /mnt/
 cd /pxe/client/pc1/
 ```
