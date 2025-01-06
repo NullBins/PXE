@@ -1,4 +1,4 @@
-# [PXE 🖥 BootLoader 🗂 FileSystem Server Configuration]
+# [PXE 🖥 BootLoader 🗂 FileSystem Server Settings]
 >![Image](https://github.com/NullBins/PXE/blob/main/IMAGES/PXE.png)
 
 ## [ *Server - Step. 1* ]
