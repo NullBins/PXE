@@ -128,6 +128,6 @@ cp -vax /boot/vmlinuz-4.19.0-14-amd64 /boot/vmlinuz.pxe
 exit
 cp -ax /pxe/client/pc1/boot/*.pxe /srv/tftp/
 ```
-## [ *Client - Removed Disks* ]
+## [ *ClientPC - Removed Disks* ]
 🔔 Booting (Power-On)
 >![Image](https://github.com/NullBins/PXE/blob/main/IMAGES/LOGIN.png)
