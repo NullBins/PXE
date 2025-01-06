@@ -1,7 +1,4 @@
-<div align ="center">
-    <h1> [ PXE 🖥 BootLoader 🗂 FileSystem Server Configuration ] </h1>
-</div>
-
+# [PXE 🖥 BootLoader 🗂 FileSystem Server Configuration]
 >![Image](https://github.com/NullBins/PXE/blob/main/IMAGES/PXE.png)
 
 ## [ *Server - Step. 1* ]
@@ -121,7 +118,7 @@ mount --rbind /sys/ ./sys/
 chroot /pxe/client/pc1/ /bin/bash --login
 ```
 ```bash
-chroot /pxe/client/pc1/ /bin/bash --login    👉 # 클라이언트 PC 디스크(/pxe/client/pc1/) 파일 시스템을 bash shell로 로그인
+chroot /pxe/client/pc1/ /bin/bash --login    👉 # 클라이언트 PC 디스크(/pxe/client/pc1/) 파일 시스템을 Bash shell로 로그인
 ```
 ```vim
 mkinitramfs -d /etc/initramfs-tools -o /boot/initrd.pxe
